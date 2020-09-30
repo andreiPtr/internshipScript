@@ -1,0 +1,14 @@
+#logrotate Config
+/var/log/systemusage/*.log{
+	daily
+	rotate 5
+	compress
+	create
+}
+
+
+
+
+
+5 * * * * /home/andrei/Desktop/Scripts/script.sh  # cronotab
+

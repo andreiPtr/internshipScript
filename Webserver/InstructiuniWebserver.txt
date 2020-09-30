@@ -1,0 +1,26 @@
+Comenzi rulate pe vm-ul cu Webserver
+sudo yum install nginx php monit
+editat nginx conf cu https://www.nginx.com/resources/wiki/start/topics/recipes/wordpress/
+sudo systemctl start nginx php-fpm monit
+sudo systemctl enable nginx php-fpm monit
+yum install mariadb
+sudowget https://wordpress.org/latest.tar.gz in /var/www/html
+sudo tar -xzvf latest.tar.gz
+cd wordpress
+cp wp-config-sample.php wp-config.php
+(editat wp-config.php)
+
+
+Comenzi rulate pe vm-ul cu MariaDB
+sudo yum install mariadb mariadb-server -y
+sudo systemctl start mariadb.service
+sudo systemctl enable mariadb.service
+modificat /etc/my.cnf adaugat bind-address= 0.0.0.0
+systemctl restart mariadb
+mysql:
+>create database wdpress default character set utf8 collate utf8_unicode_ci;
+>create usr 'wpuser'@'192.168.33.10' identified by 'parola';
+>grant all on *.* to  'wpuser'@'192.168.33.10' identified by 'parola';
+>flush privileges;
+>quit;
+systemctl restart mariadb

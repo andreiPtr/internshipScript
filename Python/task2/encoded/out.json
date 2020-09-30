@@ -1,0 +1,28 @@
+[
+    {
+        "are_easy_tasks_too": "are_devops_interns_cool",
+        "are_easy_too_tasks": "are_cool_interns_devops",
+        "are_tasks_easy_too": "are_interns_devops_cool",
+        "are_tasks_too_easy": "are_devops_cool_interns",
+        "are_too_easy_tasks": "are_interns_cool_devops",
+        "are_too_tasks_easy": "are_cool_devops_interns",
+        "easy_are_tasks_too": "interns_are_devops_cool",
+        "easy_are_too_tasks": "interns_are_cool_devops",
+        "easy_tasks_are_too": "interns_devops_are_cool",
+        "easy_tasks_too_are": "interns_devops_cool_are",
+        "easy_too_are_tasks": "interns_cool_are_devops",
+        "easy_too_tasks_are": "interns_cool_devops_are",
+        "tasks_are_easy_too": "devops_interns_are_cool",
+        "tasks_are_too_easy": "devops_are_cool_interns",
+        "tasks_easy_are_too": "devops_are_interns_cool",
+        "tasks_easy_too_are": "devops_cool_interns_are",
+        "tasks_too_are_easy": "devops_cool_are_interns",
+        "tasks_too_easy_are": "devops_interns_cool_are",
+        "too_are_easy_tasks": "cool_interns_are_devops",
+        "too_are_tasks_easy": "cool_are_devops_interns",
+        "too_easy_are_tasks": "cool_are_interns_devops",
+        "too_easy_tasks_are": "cool_devops_interns_are",
+        "too_tasks_are_easy": "cool_devops_are_interns",
+        "too_tasks_easy_are": "cool_interns_devops_are"
+    }
+]
