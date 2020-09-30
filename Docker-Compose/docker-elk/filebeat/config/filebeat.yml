@@ -1,0 +1,16 @@
+filebeat.modules:
+- module: system
+  syslog:
+    enabled: true
+    var.paths:
+     - /var/log/messages
+filebeat.autodiscover:
+  providers:
+    - type: docker
+      hints.enabled: true
+
+processors:
+- add_cloud_metadata: ~
+
+output.logstash:
+  hosts: ["logstash:5045"]

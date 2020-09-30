@@ -1,0 +1,4 @@
+- pipeline.id: filebeat
+path.config: "/logstash/pipeline/filebeat.conf"
+- pipeline.id: metricbeat
+path.config: "/logstash/pipeline/metricbeat.conf"
